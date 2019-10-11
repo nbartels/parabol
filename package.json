@@ -32,6 +32,7 @@
     "debug": "yarn workspace parabol-server debug",
     "debug:prod": "yarn workspace parabol-server debug:prod",
     "dev": "yarn workspace parabol-server dev",
+    "entry": "yarn workspace parabol-server db:migrate && yarn workspace parabol-server postdeploy",
     "lint": "lerna run --parallel lint",
     "test": "yarn workspace parabol-cypress test",
     "typecheck": "lerna run --parallel typecheck"
