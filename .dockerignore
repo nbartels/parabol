@@ -1,9 +1,9 @@
-/node_modules
+/dist
 /dev
 /build
-/dist
-/.circleci
-/.git
-/.github
 /.vscode
-/packages/client/__generated__
+/.github
+/.circleci
+/node_modules
+/Dockerfile
+/.git
