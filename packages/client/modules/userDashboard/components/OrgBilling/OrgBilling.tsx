@@ -18,9 +18,6 @@ const OrgBilling = (props: Props) => {
   const {organization, viewer, relay} = props
   return (
     <div>
-      <OrgBillingUpgrade organization={organization} invoiceListRefetch={relay && relay.refetch} />
-      <OrgBillingCreditCardInfo organization={organization} />
-      <OrgBillingInvoices viewer={viewer} />
       <OrgBillingDangerZone organization={organization} />
     </div>
   )
