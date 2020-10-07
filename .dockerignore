@@ -7,3 +7,4 @@
 /node_modules
 /Dockerfile
 /.git
+/packages/client/__generated__
